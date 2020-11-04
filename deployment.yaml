@@ -67,7 +67,7 @@ spec:
     targetPort: 8080
   selector:
     app: demo
-  type: NodePort
+  type: ClusterIP
 ---
 apiVersion: v1
 kind: Service
@@ -79,4 +79,4 @@ spec:
     targetPort: 8080
   selector:
     app: demo
-  type: NodePort
+  type: ClusterIP
