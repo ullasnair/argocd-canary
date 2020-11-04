@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
       - name: demo
-        image: nginx:1.14.2
+        image: argoproj/rollouts-demo:blue
         imagePullPolicy: Always
         ports:
         - name: web
